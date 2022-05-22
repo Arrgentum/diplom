@@ -26,6 +26,10 @@ struct range* big_left_rotation(struct range* head);
 
 struct range* big_right_rotation(struct range* head);
 
+void fixmax(struct range **head);
+
+void fixheight(struct range **head);
+
 void balanced_range_tree(struct range **head);
 
 void add_in_range_tree(struct range **head, struct range *new_elem);
